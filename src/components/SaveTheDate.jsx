@@ -38,7 +38,7 @@ const SaveTheDate = () => {
   return (
     <div id="date">
       <div className="flex justify-center">
-        <div className="bg-[url('/images/bghero.jpg')] bg-cover relative bg-center bg-opacity-20 max-w-md py-28 w-full flex flex-col justify-center items-center overflow-hidden px-16">
+        <div className="bg-[url('/images/bghero.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-28 w-full flex flex-col justify-center items-center overflow-hidden px-8">
           <div className="w-full backdrop-filter backdrop-blur-lg bg-white/50 bg-center p-5 ">
             {contents.map((content, index) => (
               <div

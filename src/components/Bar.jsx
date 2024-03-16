@@ -31,7 +31,7 @@ const images = [
 
 const Bar = () => {
   return (
-    <div className="w-96 backdrop-filter backdrop-blur-lg bg-white/50 fixed bottom-0 flex gap-5 p-2 mx-auto left-1/2 -translate-x-1/2">
+    <div className="max-w-xs backdrop-filter backdrop-blur-lg bg-white/50 fixed bottom-0 flex gap-5 p-2 mx-auto left-1/2 -translate-x-1/2">
       {images.map((image, index) => (
         <Link href={image.link} className=" rounded opacity-100 shadow p-2">
           {" "}

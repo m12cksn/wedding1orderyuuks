@@ -20,7 +20,7 @@ const Main = () => {
   return (
     <div id="main" className="flex justify-center">
       <div
-        className="bg-[url('/images/bghero.jpg')] bg-cover relative bg-center bg-opacity-20 max-w-md py-40 w-full flex justify-center items-center overflow-hidden"
+        className="bg-[url('/images/bghero.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-40 w-full flex justify-center items-center overflow-hidden"
         id="main-section"
       >
         <div>
@@ -29,7 +29,7 @@ const Main = () => {
             data-aos-easing="linear"
             data-aos-duration="1500"
             className="w-80  animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 animate-ease-in animate-reverse animate-fill-both "
-            src="/images/mainimg.png"
+            src="/images/mainimg.webp"
             width={1000}
             height={1000}
             alt="Cruise"

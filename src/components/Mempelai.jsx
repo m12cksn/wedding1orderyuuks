@@ -17,13 +17,13 @@ const Mempelai = () => {
   }, []);
   const contents = [
     {
-      img: "/images/mwanita.png",
+      img: "/images/wanita.webp",
       name: "Seo Dal Mi",
       parent: "Putri dari Bpk. Dal Ma di & Ibu Seo In Ah",
       alamat: "Alamat Jakarta",
     },
     {
-      img: "/images/Pria.png",
+      img: "/images/pria.webp",
       name: "Nam Do San",
       parent: "Putri dari Bpk. Dal Ma di & Ibu Seo In Ah",
       alamat: "Alamat Jakarta",
@@ -33,7 +33,7 @@ const Mempelai = () => {
   return (
     <div className="flex justify-center">
       <div
-        className="bg-[url('/images/bg2.jpg')] bg-cover relative bg-center bg-opacity-20 max-w-md py-28 w-full flex justify-center items-center overflow-hidden "
+        className="bg-[url('/images/bg2.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-28 w-full flex justify-center items-center overflow-hidden "
         id="opening-section"
       >
         <div className="flex flex-col items-center">

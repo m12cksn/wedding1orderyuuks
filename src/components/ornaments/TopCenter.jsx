@@ -6,7 +6,7 @@ const TopCenter = () => {
     <div>
       <Image
         className="w-[38rem] object-contain absolute -top-20  "
-        src="/images/center-top.png"
+        src="/images/center.webp"
         width={1000}
         height={1000}
         alt="Cruise"

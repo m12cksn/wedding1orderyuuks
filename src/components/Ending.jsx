@@ -18,19 +18,19 @@ const Ending = () => {
   }, []);
   return (
     <div className="flex justify-center" id="ending">
-      <BackgroundImage bgImage="/images/bghero.jpg">
+      <BackgroundImage bgImage="/images/bghero.webp">
         <div>
           <h1
             className={`${berkshire.className} text-3xl  text-slate-700 text-center mb-4`}
           >
             Kirim Angpao Online
           </h1>
-          <div className="relative">
+          <div className="relative max-w-xs mx-auto">
             <Image
               data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              className="max-w-sm"
+              className="max-w-xs"
               src="/images/bca.jpg"
               width={500}
               height={500}
@@ -46,7 +46,7 @@ const Ending = () => {
                   width={500}
                   height={500}
                 />
-                <div className="mt-24 ">
+                <div className="mt-16 ">
                   <h1
                     data-aos="fade-up"
                     data-aos-easing="linear"
@@ -82,7 +82,7 @@ const Ending = () => {
               data-aos-easing="linear"
               data-aos-duration="1500"
               className="max-w-xs mt-10 xl:w-[30rem] animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 animate-ease-in animate-reverse animate-fill-both mb-7 mx-auto"
-              src="/images/heroimage.png"
+              src="/images/heroimage.webp"
               width={1000}
               height={1000}
               alt="Cruise"

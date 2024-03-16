@@ -37,7 +37,7 @@ const Opening = ({ onButtonClick }) => {
               data-aos-easing="linear"
               data-aos-duration="1500"
               className="w-80 xl:w-[30rem] animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 animate-ease-in animate-reverse animate-fill-both mb-5"
-              src="/images/heroimage.png"
+              src="/images/heroimage.webp"
               width={1000}
               height={1000}
               alt="Cruise"

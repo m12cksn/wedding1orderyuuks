@@ -17,7 +17,7 @@ const Section2 = () => {
   return (
     <div id="section2" className="flex justify-center">
       <div
-        className="bg-[url('/images/bghero.jpg')] bg-cover relative bg-center bg-opacity-20 max-w-md py-28 w-full flex justify-center items-center overflow-hidden "
+        className="bg-[url('/images/bghero.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-28 w-full flex justify-center items-center overflow-hidden "
         id="opening-section"
       >
         <TopCenter />
@@ -54,7 +54,7 @@ const Section2 = () => {
             data-aos-easing="linear"
             data-aos-duration="1500"
             className="w-80   mb-7"
-            src="/images/heroimage.png"
+            src="/images/heroimage.webp"
             width={1000}
             height={1000}
             alt="Cruise"
@@ -77,7 +77,7 @@ const Section2 = () => {
           data-aos-easing="linear"
           data-aos-duration="1500"
           className="w-[38rem] object-contain absolute -top-20  "
-          src="/images/center-top.png"
+          src="/images/center.webp"
           width={1000}
           height={1000}
           alt="Cruise"
