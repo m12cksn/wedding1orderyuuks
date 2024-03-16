@@ -36,20 +36,14 @@ const Opening = ({ onButtonClick }) => {
               data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              className="w-80 xl:w-[30rem] animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 animate-ease-in animate-reverse animate-fill-both mb-7"
+              className="w-80 xl:w-[30rem] animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 animate-ease-in animate-reverse animate-fill-both mb-5"
               src="/images/heroimage.png"
               width={1000}
               height={1000}
               alt="Cruise"
               priority={true}
             />
-            <h1 className=" text-slate-900 mb-1 text-lg text-center ">
-              Kepada
-            </h1>
-            <h1 className=" text-slate-900 mb-5 text-lg text-center ">
-              Bapak / Ibu / Saudara / i
-            </h1>
-            <div className="w-full flex justify-center">
+            <div className="w-full flex mb-3 justify-center">
               <button
                 onClick={onButtonClick}
                 className="bg-indigo-500 px-11 shadow mx-auto py-2 rounded text-white tracking-wider"
@@ -57,6 +51,15 @@ const Opening = ({ onButtonClick }) => {
                 Buka Undangan{" "}
               </button>
             </div>
+            <h1 className=" text-slate-900 mb-1 text-lg text-center ">
+              Kepada
+            </h1>
+            <h1 className=" text-slate-900 mb-2 text-lg text-center ">
+              Bapak / Ibu / Saudara / i
+            </h1>
+            <h1 className="text-slate-500  text-lg text-center ">
+              Teman dari Mempelai
+            </h1>
           </div>
           <TopLeft />
           <TopRight />

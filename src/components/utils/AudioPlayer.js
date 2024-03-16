@@ -35,12 +35,10 @@ const AudioPlayer = ({ audioSrc }) => {
     }
   };
   return (
-    <div>
-      <div>
-        <button onClick={togglePlay}>
-          {isPlaying ? <PauseButton /> : <PlayButton />}
-        </button>
-      </div>
+    <div className="w-16 z-50 fixed top-5    mx-auto left-1/2 -translate-x-1/2">
+      <button className="w-16 drop-shadow-md " onClick={togglePlay}>
+        {isPlaying ? <PauseButton /> : <PlayButton />}
+      </button>
     </div>
   );
 };
