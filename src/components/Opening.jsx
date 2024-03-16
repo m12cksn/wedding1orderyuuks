@@ -18,7 +18,7 @@ const Opening = ({ onButtonClick }) => {
   }, []);
   return (
     <div className="flex justify-center">
-      <div className="bg-[url('/images/gallery/image2.webp')] bg-cover relative bg-center bg-opacity-20 max-w-md py-40 w-full flex h-screen justify-center items-center overflow-hidden">
+      <div className="bg-[url('/images/gallery/image2.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-40 w-full flex h-screen justify-center items-center overflow-hidden">
         <div className="bg-black opacity-50 backdrop-filter backdrop-blur-2xl h-screen w-full absolute"></div>
         <div>
           <div className="bg-white/90 backdrop-filter backdrop-blur-sm max-w-xs opacity-80 p-5">
