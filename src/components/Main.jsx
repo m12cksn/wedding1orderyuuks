@@ -30,8 +30,8 @@ const Main = () => {
             data-aos-duration="1500"
             className="w-80  animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 animate-ease-in animate-reverse animate-fill-both "
             src="/images/mainimg.webp"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             alt="Cruise"
             priority={true}
           />

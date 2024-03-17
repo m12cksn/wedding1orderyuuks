@@ -8,8 +8,8 @@ const PlayButton = () => {
       <Image
         className="w-14"
         src="/images/play.png"
-        width={1000}
-        height={1000}
+        width={500}
+        height={500}
         alt="Cruise"
         priority={true}
       />

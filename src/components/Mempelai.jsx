@@ -55,8 +55,8 @@ const Mempelai = () => {
               <Image
                 className="w-48   mb-7"
                 src={content.img}
-                width={1000}
-                height={1000}
+                width={500}
+                height={500}
                 alt="Cruise"
                 priority={true}
               />
@@ -93,8 +93,8 @@ const Mempelai = () => {
               data-aos-duration="1500"
               className="w-24 py-3 object-contain "
               src="/images/love.png"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
               alt="Cruise"
               priority={true}
             />

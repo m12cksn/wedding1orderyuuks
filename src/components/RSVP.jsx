@@ -46,7 +46,9 @@ const RSVP = () => {
               Konfirmasi Kehadiran
             </h1>
             <div className="flex flex-col gap-1">
-              <label htmlFor="nama">Nama</label>
+              <label className="text-slate-800" htmlFor="nama">
+                Nama
+              </label>
               <input
                 type="text"
                 id="nama"
@@ -56,7 +58,9 @@ const RSVP = () => {
               />
             </div>
             <div className="flex flex-col gap-1 mt-5">
-              <label htmlFor="nama">Ucapan dan Do'a</label>
+              <label className="text-slate-800" htmlFor="nama">
+                Ucapan dan Do'a
+              </label>
               <textarea
                 rows={5}
                 type="text"
@@ -66,7 +70,9 @@ const RSVP = () => {
               />
             </div>
             <div className="flex flex-col gap-1 mt-5">
-              <label htmlFor="nama">Kehadiran</label>
+              <label className="text-slate-800" htmlFor="nama">
+                Kehadiran
+              </label>
               <select className="h-9 p-2" name="" id="">
                 <option value="hadir">Hadir</option>
                 <option value="hadir">Tidak Hadir</option>

@@ -29,8 +29,8 @@ export default function Home() {
     }
   };
   return (
-    <div className="bg-slate-900">
-      {isMusicPlaying && <AudioPlayer audioSrc="music/music.MP3" />}
+    <div className="">
+      {/* {isMusicPlaying && <AudioPlayer audioSrc="music/music.MP3" />} */}
       {showOpening && <Opening onButtonClick={handleButtonClick} />}
       {!showOpening && <Main />}
       {!showOpening && <Section2 />}

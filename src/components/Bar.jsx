@@ -31,20 +31,22 @@ const images = [
 
 const Bar = () => {
   return (
-    <div className="max-w-xs backdrop-filter backdrop-blur-lg bg-white/50 fixed bottom-0 flex gap-5 p-2 mx-auto left-1/2 -translate-x-1/2">
-      {images.map((image, index) => (
-        <Link href={image.link} className=" rounded opacity-100 shadow p-2">
-          {" "}
-          <Image
-            className="w-12"
-            src={image.img}
-            width={1000}
-            height={1000}
-            alt="Cruise"
-            priority={true}
-          />
-        </Link>
-      ))}
+    <div>
+      <div className="w-80 backdrop-filter backdrop-blur-lg bg-white/90 fixed bottom-0 flex gap-5 p-2 mx-auto left-1/2 -translate-x-1/2">
+        {images.map((image, index) => (
+          <Link href={image.link} className=" rounded bg-white shadow p-1">
+            {" "}
+            <Image
+              className="w-20"
+              src={image.img}
+              width={500}
+              height={500}
+              alt="Cruise"
+              priority={true}
+            />
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };

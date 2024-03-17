@@ -55,8 +55,8 @@ const Section2 = () => {
             data-aos-duration="1500"
             className="w-80   mb-7"
             src="/images/heroimage.webp"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             alt="Cruise"
             priority={true}
           />
@@ -78,8 +78,8 @@ const Section2 = () => {
           data-aos-duration="1500"
           className="w-[38rem] object-contain absolute -top-20  "
           src="/images/center.webp"
-          width={1000}
-          height={1000}
+          width={500}
+          height={500}
           alt="Cruise"
           priority={true}
         />

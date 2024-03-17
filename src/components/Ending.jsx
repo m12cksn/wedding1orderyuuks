@@ -83,8 +83,8 @@ const Ending = () => {
               data-aos-duration="1500"
               className="max-w-xs mt-10 xl:w-[30rem] animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 animate-ease-in animate-reverse animate-fill-both mb-7 mx-auto"
               src="/images/heroimage.webp"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
               alt="Cruise"
               priority={true}
             />
@@ -99,7 +99,7 @@ const Ending = () => {
             bagi kami.
           </p>
           <h1
-            data-aos="fade-up"
+            data-aos=""
             data-aos-easing="linear"
             data-aos-duration="1500"
             className={`${berkshire.className} text-2xl mt-3 text-slate-700 text-center mb-4`}

@@ -55,8 +55,8 @@ const imageGallery = () => {
           <Image
             className="w-60 h-52 object-cover shadow rounded "
             src={image.img}
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             alt="Cruise"
             priority={true}
           />
