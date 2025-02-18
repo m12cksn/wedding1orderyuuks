@@ -9,6 +9,9 @@ import TopLeft from "./ornaments/TopLeft";
 import TopRight from "./ornaments/TopRight";
 import BtmLeft from "./ornaments/BtmLeft";
 import BtmRight from "./ornaments/BtmRight";
+import Top from "./ornaments/Top";
+import ImageBottom from "./ornaments/imageBottom";
+import Bottom from "./ornaments/Bottom";
 
 // import { animate_pulse } from "tailwindcss-animated";
 
@@ -18,26 +21,26 @@ const Opening = ({ onButtonClick }) => {
   }, []);
   return (
     <div className="flex justify-center">
-      <div className="bg-[url('/images/gallery/image2.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-40 w-full flex h-screen justify-center items-center overflow-hidden">
+      <div className="bg-[url('/images/bg3.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-40 w-full flex h-screen justify-center items-center overflow-hidden">
         <div className="bg-black opacity-50 backdrop-filter backdrop-blur-2xl h-screen w-full absolute"></div>
         <div>
-          <div className="bg-white/90 backdrop-filter backdrop-blur-sm max-w-xs opacity-80 p-5">
+          <div className="backdrop-filter backdrop-blur-lg bg-white/70 rounded-md  max-w-xs opacity-80 p-5">
             <h1
-              className={`${berkshire.className} xl:text-3xl text-slate-900 text-xl text-center mb-5`}
+              className={`${berkshire.className}  text-slate-900 text-xl text-center mb-5`}
             >
-              The Wedding of
+              Walimatul Khitan
             </h1>
             <h2
-              className={`${berkshire.className} text-4xl xl:text-5xl text-slate-900 text-center mb-7`}
+              className={`${berkshire.className} text-2xl  text-slate-900 text-center mb-7`}
             >
-              Dosan & Dalmi
+              Arsyad Haafizh Virendra
             </h2>
             <Image
               data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="1500"
-              className="w-80 xl:w-[30rem] animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 animate-ease-in animate-reverse animate-fill-both mb-5"
-              src="/images/heroimage.webp"
+              className="w-80 xl:w-[30rem] animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 bg-cover object-cover h-72  animate-ease-in shadow-md animate-reverse animate-fill-both rounded-bl-3xl rounded-tr-3xl mb-5"
+              src="/images/oke5.webp"
               width={500}
               height={500}
               alt="Cruise"
@@ -57,14 +60,15 @@ const Opening = ({ onButtonClick }) => {
             <h1 className=" text-slate-900 mb-2 text-lg text-center ">
               Bapak / Ibu / Saudara / i
             </h1>
-            <h1 className="text-slate-500  text-lg text-center ">
-              Teman dari Mempelai
-            </h1>
+            <h1 className="text-slate-500  text-lg text-center ">di Tempat</h1>
           </div>
-          <TopLeft />
+          <Top />
+          {/* <ImageBottom /> */}
+          {/* <Bottom /> */}
+          {/* <TopLeft />
           <TopRight />
           <BtmLeft />
-          <BtmRight />
+          <BtmRight /> */}
         </div>
       </div>
     </div>

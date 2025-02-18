@@ -10,6 +10,7 @@ import BtmRight from "./ornaments/BtmRight";
 
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import CSS AOS
+import ImageBottom from "./ornaments/imageBottom";
 
 const Main = () => {
   useEffect(() => {
@@ -20,43 +21,33 @@ const Main = () => {
   return (
     <div id="main" className="flex justify-center">
       <div
-        className="bg-[url('/images/bghero.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-40 w-full flex justify-center items-center overflow-hidden"
+        className="bg-[url('/images/oke4.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-10 w-full flex justify-center items-start overflow-hidden h-[40rem]"
         id="main-section"
       >
         <div>
-          <Image
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-            className="w-80  animate-wiggle animate-infinite animate-duration-[7000ms] animate-delay-1000 animate-ease-in animate-reverse animate-fill-both "
-            src="/images/mainimg.webp"
-            width={500}
-            height={500}
-            alt="Cruise"
-            priority={true}
-          />
           <h1
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
-            className={`${berkshire.className} text-slate-900 text-xl text-center mb-2`}
+            className={`${berkshire.className} text-slate-50 text-xl text-center mb-2`}
           >
-            The Wedding of
+            Walimatul Khitan
           </h1>
           <h2
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="1500"
-            className={`${berkshire.className} text-4xl text-slate-900 text-center mb-2`}
+            className={`${berkshire.className} text-3xl text-slate-50 text-center mb-2`}
           >
-            Dosan & Dalmi
+            Arsyad Haafizh Virendra
           </h2>
-          <Timer />
+          {/* <Timer /> */}
         </div>
-        <TopLeft />
+        {/* <TopLeft />
         <TopRight />
         <BtmLeft />
-        <BtmRight />
+        <BtmRight /> */}
+        <ImageBottom />
       </div>
     </div>
   );

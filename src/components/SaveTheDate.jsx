@@ -12,6 +12,8 @@ import BtmRight from "./ornaments/BtmRight";
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import CSS AOS
+import Top from "./ornaments/Top";
+import ImageBottom from "./ornaments/imageBottom";
 
 const SaveTheDate = () => {
   useEffect(() => {
@@ -21,25 +23,32 @@ const SaveTheDate = () => {
   }, []);
   const contents = [
     {
-      title: "Akad Nikah",
-      img: "/images/marriage.png",
-      day: "Kamis, 15 Oktober, 2023",
-      time: "at 09:00 WIB - finish",
-      alamat: "Jalan Sultan Hasanudin, Panakukang. di Masjid Al Barokah",
+      title: "Malam Pengajian",
+
+      day: "Minggu, 23 Februari, 2025",
+      time: "Ba'da Isya",
+      alamat: "Habib Abdillah Bin Al Jilani",
     },
     {
-      title: "Resepsi Pernikahan",
-      img: "/images/wedding.png",
-      day: "Kamis, 15 Oktober, 2023",
-      time: "at 09:00 WIB - finish",
-      alamat: "Jalan Sultan Hasanudin, Panakukang. di Masjid Al Barokah",
+      title: "Resepsi",
+      day: "Senin, 24 Februari, 2025",
+      time: "at 09:00 WIB - Selesai",
+      alamat: "Jl. Slamet Riyadi, Kebonsayur - RT. 05/05",
     },
   ];
   return (
     <div id="date">
       <div className="flex justify-center">
-        <div className="bg-[url('/images/bghero.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-28 w-full flex flex-col justify-center items-center overflow-hidden px-8">
-          <div className="w-full backdrop-filter backdrop-blur-lg bg-white/50 bg-center py-5 ">
+        <div className="bg-[url('/images/bg3.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-28 w-full flex flex-col justify-center items-center overflow-hidden px-8">
+          <h1
+            data-aos=""
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="text-2xl mt-5 text-slate-50 mb-2"
+          >
+            Waktu & Tempat Acara
+          </h1>
+          <div className="w-full backdrop-filter backdrop-blur-lg bg-white/90 bg-center py-10 rounded-md shadow-md ">
             {contents.map((content, index) => (
               <div
                 data-aos="fade-up"
@@ -49,44 +58,41 @@ const SaveTheDate = () => {
                 className="z-50 flex flex-col justify-center items-center mb-5"
               >
                 <h1
-                  className={`${berkshire.className} xl:text-xl text-slate-700 text-xl text-center mb-1`}
+                  className={`${berkshire.className}  text-slate-700 text-2xl text-center mb-1`}
                 >
                   {content.title}
                 </h1>
 
                 <Image
-                  className="w-7"
-                  src="/images/marriage.png"
+                  className="w-10 py-2"
+                  src="/images/boy.webp"
                   width={500}
                   height={500}
                   alt="akad"
                   priority={true}
                 />
                 <div className="mt-4 flex flex-col justify-center items-center gap-1 ">
-                  <h1 className=" text-center uppercase  text-slate-600">
+                  <h1 className=" text-center uppercase font-semibold  text-slate-600">
                     {content.day}
                   </h1>
-                  <h1 className="text-center  text-sm text-slate-600 flex items-center justify-center ">
+                  <h1 className="text-center   text-slate-600 flex items-center justify-center ">
                     <span className="mr-1">
                       <IoTimeOutline />
                     </span>
                     {content.time}
                   </h1>
-                  <h1 className="text-center  text-sm text-slate-600  flex items-start">
+                  <h1 className="text-center    text-slate-600  flex items-start">
                     {content.alamat}
                   </h1>
                 </div>
               </div>
             ))}
-            <Timer />
           </div>
           <div className="">
             <Maps />
           </div>
-          <TopLeft />
-          <TopRight />
-          <BtmLeft />
-          <BtmRight />
+          <Top />
+          <ImageBottom />
         </div>
       </div>
     </div>

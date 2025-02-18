@@ -12,34 +12,23 @@ const imageGallery = () => {
   }, []);
   const images = [
     {
-      img: "/images/gallery/image1.webp",
+      img: "/images/oke1.webp",
     },
     {
-      img: "/images/gallery/image2.webp",
+      img: "/images/oke2.webp",
     },
     {
-      img: "/images/gallery/image4.webp",
+      img: "/images/oke4.webp",
     },
     {
-      img: "/images/gallery/image5.webp",
+      img: "/images/oke5.webp",
+    },
+
+    {
+      img: "/images/oke7.webp",
     },
     {
-      img: "/images/gallery/image6.webp",
-    },
-    {
-      img: "/images/gallery/image7.webp",
-    },
-    {
-      img: "/images/gallery/image8.webp",
-    },
-    {
-      img: "/images/gallery/image10.webp",
-    },
-    {
-      img: "/images/gallery/image11.webp",
-    },
-    {
-      img: "/images/gallery/image12.webp",
+      img: "/images/oke8.webp",
     },
   ];
   return (

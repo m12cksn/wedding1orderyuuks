@@ -33,7 +33,8 @@ const RSVP = () => {
   return (
     <div id="rsvp">
       <div className="flex justify-center  mx-auto">
-        <div className="bg-[url('/images/bghero.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-28 w-full flex flex-col justify-center items-center overflow-hidden px-8">
+        <div className="bg-[url('/images/oke1.webp')] bg-cover relative bg-center bg-opacity-20 max-w-sm py-28 w-full flex flex-col justify-center items-center overflow-hidden px-8">
+          {/* <div className="absolute inset-0 bg-black opacity-50"></div> */}
           <div
             data-aos="fade-up"
             data-aos-easing="linear"
@@ -102,10 +103,6 @@ const RSVP = () => {
               </div>
             ))}
           </div>
-          <TopLeft />
-          <TopRight />
-          <BtmLeft />
-          <BtmRight />
         </div>
       </div>
     </div>
